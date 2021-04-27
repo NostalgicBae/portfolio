@@ -248,6 +248,9 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
+.bolded-color{
+  color: var(--first-color);
+}
 
 /* ===== SKILLS =====*/
 .skills__container{
