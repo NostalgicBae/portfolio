@@ -55,3 +55,16 @@ sr.reveal('.work__img',{interval: 200});
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200});
+
+
+function changeImage() {
+    var Image_Id = document.getElementById('mis-img');
+    if (Image_Id.src.match("img/DFD.png")) {
+        Image_Id.src = "img/team.jpg";
+        Image_Id.className = "skills__img"
+
+    }
+    else {
+        Image_Id.src = "img/DFD.png";
+    }
+}     
