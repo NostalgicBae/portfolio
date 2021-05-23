@@ -212,7 +212,6 @@ img{
 .home__social-icon:hover{
   color: var(--first-color);
 }
-
 .home__img{
   position: absolute;
   right: 0;
